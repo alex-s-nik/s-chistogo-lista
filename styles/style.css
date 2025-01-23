@@ -18,3 +18,46 @@ blockquote {
   margin: 0;
   padding: 0;
 }
+
+.content-section {
+  box-sizing: border-box;
+  width: 360px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.content-section_theme_dark {
+  color: #f5f5f5;
+  background-color: #131313;
+}
+
+.content-section_theme_bright {
+  color: #131313;
+  background-color: #fee42a;
+}
+
+.header {
+  padding: 24px 20px;
+}
+
+.cover {
+  padding-top: 7px;
+  padding-left: 20px;
+}
+
+.intro {
+  padding: 30px 20px 38px;
+}
+
+.reasons {
+  padding: 40px 20px;
+}
+
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+.footer {
+  border-top: #fee42a 1px solid;
+  padding: 20px;
+}
