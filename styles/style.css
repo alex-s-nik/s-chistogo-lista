@@ -22,7 +22,6 @@ blockquote {
 .content-section {
   box-sizing: border-box;
   width: 360px;
-  height: 100px;
   margin: 0 auto;
 }
 
@@ -37,7 +36,32 @@ blockquote {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   padding: 24px 20px;
+  height: 132px;
+}
+
+.header__logo-image {
+  width: 79px;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.header__menu-item {
+  list-style-type: none;
+}
+
+.header__menu-link {
+  color: #f5f5f5;
+}
+
+.header__menu-item_active {
+  text-decoration: none;
 }
 
 .cover {
