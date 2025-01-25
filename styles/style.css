@@ -38,8 +38,8 @@ blockquote {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 24px 20px;
   height: 132px;
+  padding: 24px 20px;
 }
 
 .header__logo-image {
@@ -65,8 +65,13 @@ blockquote {
 }
 
 .cover {
+  min-height: 230px;
   padding-top: 7px;
   padding-left: 20px;
+  background-image: url("/images/cover.svg");
+  background-repeat: no-repeat;
+  background-position: 21px 30px;
+  background-size: 95% auto;
 }
 
 .intro {
