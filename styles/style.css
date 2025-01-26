@@ -93,7 +93,25 @@ blockquote {
 }
 
 .intro {
-  padding: 30px 20px 38px;
+  padding: 27px 20px 38px;
+}
+
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  color: #ccc;
+}
+
+.intro__date {
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  line-height: 1.35;
 }
 
 .reasons {
