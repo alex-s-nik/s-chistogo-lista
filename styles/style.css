@@ -104,8 +104,8 @@ blockquote {
 }
 
 .intro__title {
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
 }
 
 .intro__date {
@@ -158,26 +158,26 @@ blockquote {
 }
 
 .card-list {
-  list-style: none;
-  padding-top: 32px;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+  padding-top: 32px;
+  list-style: none;
 }
 
 .card {
-  padding: 20px 20px;
   border-radius: 30px;
+  padding: 20px 20px;
 }
 
 .card_theme_dark {
-  background-color: #343434;
   color: #f5f5f5;
+  background-color: #343434;
 }
 
 .card_theme_bright {
-  background-color: #fee42a;
   color: #131313;
+  background-color: #fee42a;
 }
 
 .card__author{
@@ -191,8 +191,8 @@ blockquote {
 }
 
 .card__author-name {
-  font-size: 16px;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.35;
 }
 
@@ -202,8 +202,8 @@ blockquote {
 }
 
 .card__title {
-  font: 500 22px/1.25 'EB Garamond','Times New Roman', serif;
   padding-bottom: 8px;
+  font: 500 22px/1.25 'EB Garamond','Times New Roman', serif;
 }
 
 .card__text {
@@ -211,6 +211,16 @@ blockquote {
 }
 
 .footer {
+  display: flex;
+  justify-content: space-between;
   border-top: #fee42a 1px solid;
-  padding: 0 20px;
+  padding: 20px;
+}
+
+.footer__links {
+  display: flex;
+  column-gap: 16px;
+}
+.footer__link {
+  font-size: 14px;
 }
