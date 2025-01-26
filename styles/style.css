@@ -118,6 +118,36 @@ blockquote {
   padding: 40px 20px;
 }
 
+.content-section__subtitle {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+  color: #131313;
+  font: 500 28px/1.15 'EB Garamond','Times New Roman', serif;
+}
+
+.content-section__introduction {
+  color: #131313;
+  font-size: 20px;
+  line-height: 27px ;
+}
+
+.content-section__list {
+  padding: 32px 3px 0 15px;
+}
+
+.content-section__list-item {
+  padding-bottom: 16px;
+  line-height: 1.35;
+}
+
+.content-section__list-item:last-child {
+  padding-bottom: 0;
+}
+.content-section__list-accent {
+  font-weight: 700;
+}
+
 .how-to {
   padding: 40px 20px 60px;
 }
