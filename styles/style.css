@@ -103,6 +103,11 @@ blockquote {
   color: #ccc;
 }
 
+.intro__title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .intro__date {
   white-space: nowrap;
 }
