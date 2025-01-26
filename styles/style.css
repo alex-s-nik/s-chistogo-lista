@@ -121,18 +121,17 @@ blockquote {
 
 .reasons {
   padding: 40px 20px;
+  color: #131313;
 }
 
 .content-section__subtitle {
   display: flex;
   flex-direction: column;
   padding-bottom: 32px;
-  color: #131313;
   font: 500 28px/1.15 'EB Garamond','Times New Roman', serif;
 }
 
 .content-section__introduction {
-  color: #131313;
   font-size: 20px;
   line-height: 27px ;
 }
@@ -155,9 +154,63 @@ blockquote {
 
 .how-to {
   padding: 40px 20px 60px;
+  color: #fff;
+}
+
+.card-list {
+  list-style: none;
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.card {
+  padding: 20px 20px;
+  border-radius: 30px;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+  color: #f5f5f5;
+}
+
+.card_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.card__author{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.card__author-photo {
+  width: 100px;
+}
+
+.card__author-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.card__content {
+  padding-top: 7px;
+  /* padding-right: 1px; */
+}
+
+.card__title {
+  font: 500 22px/1.25 'EB Garamond','Times New Roman', serif;
+  padding-bottom: 8px;
+}
+
+.card__text {
+  line-height: 1.35;
 }
 
 .footer {
   border-top: #fee42a 1px solid;
-  padding: 20px;
+  padding: 0 20px;
 }
