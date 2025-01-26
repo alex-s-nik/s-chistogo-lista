@@ -66,12 +66,30 @@ blockquote {
 
 .cover {
   min-height: 230px;
-  padding-top: 7px;
-  padding-left: 20px;
+  padding: 7px 24px 0 20px;
   background-image: url("/images/cover.svg");
   background-repeat: no-repeat;
   background-position: 21px 30px;
   background-size: 95% auto;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font: 400 72px/1 'EB Garamond','Times New Roman', serif; 
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  align-self: center;
+}
+
+.text-right {
+  align-self: flex-end;
 }
 
 .intro {
