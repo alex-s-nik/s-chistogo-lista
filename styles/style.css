@@ -42,6 +42,10 @@ blockquote {
   padding: 24px 20px;
 }
 
+.header__logo {
+  display: block;
+}
+
 .header__logo-image {
   width: 79px;
 }
