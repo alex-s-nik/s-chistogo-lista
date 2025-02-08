@@ -38,7 +38,6 @@ blockquote {
 .header {
   display: flex;
   justify-content: space-between;
-  height: 132px;
   padding: 24px 20px;
 }
 
